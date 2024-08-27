@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer paso</title>
+</head>
+<body>
+    <h1>Primer paso del registro</h1>
+    <form action="./paso2.html">
+        <fieldset style="width: 300px;">
+            <legend>Ingrese los datos solicitados</legend>
+            <label for="nombre">Escriba su nombre:</label>
+            <br>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su primer nombre" required>
+            <br><br>
+            <label for="apellido">Escriba su apellido:</label>
+            <br>
+            <input type="text" id="apellido" name="apellido" placeholder="Ingrese su primer apellido" required>
+            <br><br>
+            <label for="password">Escriba una contraseña:</label>
+            <br>
+            <input type="password" id="password" minlength="8" maxlength="12" required>
+            <br><br>
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+</html>
